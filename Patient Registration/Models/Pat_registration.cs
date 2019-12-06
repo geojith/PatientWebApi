@@ -21,8 +21,5 @@ namespace Patient_Registration.Models
         public string gender { get; set; }
         public string address { get; set; }
         public Nullable<decimal> phno { get; set; }
-        public Nullable<int> l_id { get; set; }
-    
-        public virtual Login Login { get; set; }
     }
 }

@@ -14,7 +14,7 @@ namespace Patient_Registration.Controllers
 {
     public class Pat_registrationController : ApiController
     {
-        private PDBEntities db = new PDBEntities();
+        private PDBEntities1 db = new PDBEntities1();
 
         // GET: api/Pat_registration
         public IQueryable<Pat_registration> GetPat_registration()

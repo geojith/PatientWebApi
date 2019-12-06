@@ -13,10 +13,10 @@ namespace Patient_Registration.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class PDBEntities : DbContext
+    public partial class PDBEntities1 : DbContext
     {
-        public PDBEntities()
-            : base("name=PDBEntities")
+        public PDBEntities1()
+            : base("name=PDBEntities1")
         {
         }
     

@@ -5,11 +5,13 @@ create table Login
 uid int identity(1,1) primary key,
 u_name varchar(30),
 pwd varchar(20),
+
 )
 
 insert into Login values('Geojith','12345')
 
 select * from Login
+drop table Login
 
 create table Pat_registration
 (
@@ -24,4 +26,7 @@ l_id int,
 foreign key (l_id) references Login(uid) on delete cascade
 );
 
+drop table Pat_registration
+select * from Pat_registration
+truncate table Pat_registration
 

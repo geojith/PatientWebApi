@@ -14,17 +14,8 @@ namespace Patient_Registration.Models
     
     public partial class Login
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Login()
-        {
-            this.Pat_registration = new HashSet<Pat_registration>();
-        }
-    
         public int uid { get; set; }
         public string u_name { get; set; }
         public string pwd { get; set; }
-    
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Pat_registration> Pat_registration { get; set; }
     }
 }

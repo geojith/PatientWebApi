@@ -14,7 +14,7 @@ namespace Patient_Registration.Controllers
 {
     public class LoginsController : ApiController
     {
-        private PDBEntities db = new PDBEntities();
+        private PDBEntities1 db = new PDBEntities1();
 
         // GET: api/Logins
         public IQueryable<Login> GetLogins()
